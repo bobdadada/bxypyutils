@@ -7,7 +7,7 @@ setup(
     name='coolutils',
     version='1.0',
     packages=['coolutils'],
-    url='https://gitlab.com/multipackages/coolutils',
+    url='https://github.com/bobdadada/coolutils',
     long_description=long_description,
     author='Xingyu Bao',
     author_email='baoxingyubob@outlook.com',

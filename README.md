@@ -1,2 +1,8 @@
 # coolutils
-merge with the python-utils
+
+Very useful helper functions in Python. 
+
+## plugin-ins
+
+- python-utils
+- JSON-minify

@@ -1,12 +1,11 @@
 """
 We introduce some useful functions to print attributes of target object.
 """
-__all__ = ['display', 'camel_attr_print', 'trace']
-
+import sys
 import functools
 import itertools
-import sys
 
+__all__ = ['display', 'camel_attr_print', 'trace']
 
 def trace(func):
     @functools.wraps(func)
@@ -42,7 +41,7 @@ def _validate_file_object(file):
 def display(obj, tp, *args, file=sys.stdout, **kwargs):
     """
     :param obj: specify your input object. It can be anything available in Python.
-    :param tp: specify the type of what you want to print.  It can be 'state', 'attr', 'func', 'item'
+    :param tp: specify the type of what you want to print.  It can be 'state', 'attr', 'func', 'item'.
     :param file: print the output to the file. the file must have write() method.
 
     >>>import numpy as np
