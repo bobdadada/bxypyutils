@@ -1,3 +1,4 @@
+# -*- coding:utf-8 -*-
 """
 Some commonly used regular expressions.
 """
@@ -9,3 +10,4 @@ markdown_inserted_image = r'(\!\[([\+\-\w]*)\]\(([\+.\-\w\)\(\/]+)\))'
 email = '([A-Za-z0-9\u4e00-\u9fa5]+@[a-zA-Z0-9_-]+(\\.[a-zA-Z0-9_-]+)+)'
 url = r'((http|ftp|https):\/\/[\w\-_]+(\.[\w\-_]+)+([\w\-\.,@?^=%&:/~\+#]*[\w\-\@?^=%&/~\+#])?)'
 server = r'([\w\-_]+(\.[\w\-_]+)+)'
+baidu_netdisk_link = r'(链接[:|：](https?://?[a-zA-Z0-9\.\?/=&\s]*)密码[:|：]([a-zA-Z0-9\s]+))'

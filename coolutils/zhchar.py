@@ -3,6 +3,8 @@
 from __future__ import (absolute_import, division, print_function,
                         unicode_literals)
 
+__all__ = ['full_to_half', 'half_to_full', 'num_to_cnum']
+
 """
 全角字符unicode编码从65281~65374 （十六进制 0xFF01 ~ 0xFF5E）
 半角字符unicode编码从33~126 （十六进制 0x21~ 0x7E）
