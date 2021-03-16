@@ -41,7 +41,7 @@ def half_to_full(ins):
             outs += c
         else:
             if code == 0x0020:
-                code += 0x3000
+                code == 0x3000
             else:
                 code += 0xFEE0
             outs += chr(code)
