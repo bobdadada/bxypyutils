@@ -1,4 +1,4 @@
-# coolutils
+# bxypyutils
 
 Very useful helper functions in Python. 
 

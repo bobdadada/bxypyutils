@@ -4,11 +4,11 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name='coolutils',
+    name='bxypyutils',
     version='1.0',
-    packages=['coolutils'],
+    packages=['bxypyutils'],
     install_requires=['six'],
-    url='https://github.com/bobdadada/coolutils',
+    url='https://github.com/bobdadada/bxypyutils',
     long_description=long_description,
     author='Xingyu Bao',
     author_email='baoxingyubob@outlook.com',
