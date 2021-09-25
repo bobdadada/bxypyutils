@@ -7,6 +7,7 @@ setup(
     name='coolutils',
     version='1.0',
     packages=['coolutils'],
+    install_requires=['six'],
     url='https://github.com/bobdadada/coolutils',
     long_description=long_description,
     author='Xingyu Bao',

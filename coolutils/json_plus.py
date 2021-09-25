@@ -1,7 +1,6 @@
 import json
 import os
 import six
-import hashlib
 import re
 
 __all__ = ['json_minify', 'write_json', 'load_json']
