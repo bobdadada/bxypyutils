@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name='bxypyutils',
-    version='1.2',
+    version='1.0.3',
     packages=['bxypyutils'],
     install_requires=['six'],
     url='https://github.com/bobdadada/bxypyutils',
